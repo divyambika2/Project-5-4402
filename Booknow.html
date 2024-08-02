@@ -1,0 +1,93 @@
+<html>
+  <head><center>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+ </head>
+  <body>
+     <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo">Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallary.html">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<br><br>
+  <form action="packages.html"><i>
+   <u><h1>Travel Reservation Form</h1></u><br><br>
+      <label for="firstname" required>Firstname :</label>
+      <input type="text" name="firstname" id="firstname" placeholder="First Name "><br/><br>
+      <label for="lastname" required>Lastname :</label>
+      <input type="text" name="lastname" id="firstname" placeholder="Last Name "><br/><br>
+    Date Of Birth : 
+        <input type="date" name="bname"><br><br>
+      <label for="email" required>Email ID :
+      <input type="email" name="email" id="email" placeholder="Email_Address"><br/><br>
+      <label for="tourpack" required>Selection Tour Package :</label>
+      <select name="tourpack" id="tourpack">
+        <option value="Ooty">Ooty</option>
+        <option value="Goa">Goa</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Hyderabad">Hyderabad</option>
+      </select><br/><br>
+      Arrival Date : 
+      <input type="date" name="aname"><br><br>
+      <label for="numberofperson">Number of person :</label>
+      <input type="number" name="numberofperson" id="numberofperson" placeholder="Select no..of Persons" />
+      <br/><br>
+      <div>
+      What you want to avail? :<br>
+      <input type="checkbox" name="checkbox" id="checkbox1"/>
+      <label for="checkbox1">Boarding</label><br/>
+      <input type="checkbox" name="checkbox" id="checkbox2"/>
+      <label for="checkbox2">Fooding</label><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="checkbox" id="checkbox3"/>
+      <label for="checkbox3">Sight seeing</label><br/><br>
+      </div>
+      <label for="discount">Discount Coupon Code:</label>
+      <input type="number" name="discount" id="discount" placeholder="UNKNOWN_TYPE" />
+      <br/><br>
+      <div>
+    Terms and conditions * :<br/>
+        <input type="radio" name="radio" id="radio1" />
+        <label for="radio">I agree</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radio" id="radio2" />
+        <label for="radio2">I disagree</label>
+      </div><br><br>
+      <input type="submit" name="submit" value="Submit" /><br><br></center>
+    </form></i></center><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
